@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/jetimob/notafacil-sdk-php-laravel/compare/v2.0.1...v3.0.0) (2022-08-30)
+
+
+### Bug Fixes
+
+* corrige o teste 'UserApiTest::testFind'  que tem como objetivo testar se é possível encotrar um usuário pelo seu id, porém esse id estava configurado de forma estática, e ele não existia mais. Para solucionar o problema foi pego o primeiro id encontrado no teste de listagem de usuários, e foi criado essa dependência entre os testes. ([5201c92](https://github.com/jetimob/notafacil-sdk-php-laravel/commit/5201c92a9d7d573ea3287d93f250e996b46c31aa))
+* permite que uma cidade tenha o DDD nulo ([10ad3ef](https://github.com/jetimob/notafacil-sdk-php-laravel/commit/10ad3efbf90f56fb776ea8644e6b51a7203c44d8))
+
 ### [2.0.1](https://github.com/jetimob/notafacil-sdk-php-laravel/compare/v2.0.0...v2.0.1) (2022-04-13)
 
 ## [2.0.0](https://github.com/jetimob/notafacil-sdk-php-laravel/compare/v1.1.0...v2.0.0) (2022-01-13)
